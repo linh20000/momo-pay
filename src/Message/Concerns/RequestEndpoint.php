@@ -18,8 +18,16 @@ trait RequestEndpoint
      *
      * @return string
      */
+    protected $testMode = false;
+    public function setTestMode($status) {
+        $this->testMode = 
+    }
     protected function getEndpoint(): string
     {
         return $this->getTestMode() ? 'https://test-payment.momo.vn' : 'https://payment.momo.vn';
+    }
+    public function getTestMode()
+    {
+        return $this->$testMode;
     }
 }
