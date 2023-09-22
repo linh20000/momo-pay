@@ -3,21 +3,14 @@
     "type": "library",
     "description": "Thư viện hổ trợ tích hợp cổng thanh toán MoMo.",
     "keywords": [
-        "phpviet",
+        "ommani",
         "momo",
         "payment",
         "vietnam-payment",
         "payment-gateway",
         "vietnam-payment-gateway"
     ],
-    "homepage": "https://github.com/phpviet/omnipay-momo",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Vuong Xuong Minh",
-            "email": "vuongxuongminh@gmail.com"
-        }
-    ],
     "require": {
         "php": "^8.0.2",
         "omnipay/common": "^3.0"
