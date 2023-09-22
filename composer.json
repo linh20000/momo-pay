@@ -1,5 +1,5 @@
 {
-    "name": "momo/payment",
+    "name": "ommani/payment-momo",
     "type": "library",
     "description": "Thư viện hổ trợ tích hợp cổng thanh toán MoMo.",
     "keywords": [
