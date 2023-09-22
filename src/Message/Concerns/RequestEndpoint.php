@@ -20,7 +20,7 @@ trait RequestEndpoint
      */
     protected $testMode = false;
     public function setTestMode($status) {
-        $this->testMode = 
+        $this->testMode = $status
     }
     protected function getEndpoint(): string
     {
